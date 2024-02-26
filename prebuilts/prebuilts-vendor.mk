@@ -7,7 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/sh-fwk/prebuilts/proprietary/product/etc/permissions/jp.co.sharp.android.emopar.library.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sharp.android.emopar.library.xml \
-    vendor/sh-fwk/prebuilts/proprietary/product/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml
+    vendor/sh-fwk/prebuilts/proprietary/product/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml \
+    vendor/sh-fwk/prebuilts/proprietary/system_ext/etc/permissions/privapp-permissions-system-ext-m94.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-system-ext-m94.xml
 
 PRODUCT_PACKAGES += \
     EmoParInternalContent \

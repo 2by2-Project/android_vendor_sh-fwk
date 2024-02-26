@@ -11,3 +11,4 @@ product/framework/jp.co.sharp.android.emopar.library.jar
 product/framework/jp.co.sharp.android.emopar.systemservice.jar
 product/etc/permissions/jp.co.sharp.android.emopar.library.xml
 product/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml
+system_ext/etc/permissions/privapp-permissions-system-ext-m94.xml

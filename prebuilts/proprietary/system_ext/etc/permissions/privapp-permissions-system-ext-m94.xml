@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares should be granted to privileged
+applications that are in /system_ext
+-->
+<permissions>
+
+<!-- Sharp -->
+    <privapp-permissions package="jp.co.sharp.android.SHWirelessOutput">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.antitok">
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.backuprestore">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.bluetoothpbappce">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.camera">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.dash.collector2">
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.emopar">
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.SET_PROCESS_LIMIT"/>
+        <permission name="android.permission.SOUNDTRIGGER_DELEGATE_IDENTITY"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="jp.co.sharp.android.permission.EMOPA"/>
+        <permission name="jp.co.sharp.android.permission.SENSOR_HUB"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.felicalockcontrol">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="jp.co.sharp.android.permission.FCCENPON"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.gaming">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.gamingbasemodule">
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.SET_PROCESS_LIMIT"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.kittingapp">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.launcher3">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.launcher3.simple">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.paytriggerw">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.scshocapture2">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.SET_PROCESS_LIMIT"/>
+        <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.shaquoscastservice">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.shframecapture">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.shmediaplayer">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.shphonemenu">
+        <permission name="android.permission.BIND_INCALL_SERVICE"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.shselfcheck">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.siminsertionguide2">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SHUTDOWN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.inputmethodselector">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="sharp.jp.android.makersiteappli">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.settingDefaultHome">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.emopa.systemservice">
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="jp.co.sharp.android.permission.SENSOR_HUB"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.tetheringauto.systemservice">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="jp.co.sharp.android.permission.SENSOR_HUB"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="jp.co.sharp.android.brightkeep">
+        <permission name="jp.co.sharp.android.permission.SENSOR_HUB"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.dialer">
+        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT"/>
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.ims">
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.PACKET_KEEPALIVE_OFFLOAD"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.contacts">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.dialer">
+        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.email">
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.exchange">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+</permissions>
