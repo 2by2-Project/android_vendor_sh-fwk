@@ -1,0 +1,13 @@
+# Main framework
+-framework/framework.jar:framework/sh-fwk.jar
+
+# Emopa
+-system_ext/priv-app/EmoPar/EmoPar.apk
+-system_ext/priv-app/EmopaSystemService/EmopaSystemService.apk
+-product/priv-app/EmopaOverlayService/EmopaOverlayService.apk
+-product/app/EmoParInternalContent/EmoParInternalContent.apk
+-product/app/EmoParInternalContent2/EmoParInternalContent2.apk
+product/framework/jp.co.sharp.android.emopar.library.jar
+product/framework/jp.co.sharp.android.emopar.systemservice.jar
+product/etc/permissions/jp.co.sharp.android.emopar.library.xml
+product/etc/permissions/jp.co.sharp.android.emopar.systemservice.xml
