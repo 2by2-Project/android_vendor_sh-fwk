@@ -72,6 +72,12 @@ dex_import {
 }
 
 dex_import {
+	name: "sh-services",
+	owner: "sh-fwk",
+	jars: ["proprietary/framework/sh-services.jar"],
+}
+
+dex_import {
 	name: "jp.co.sharp.android.emopar.library",
 	owner: "sh-fwk",
 	jars: ["proprietary/product/framework/jp.co.sharp.android.emopar.library.jar"],

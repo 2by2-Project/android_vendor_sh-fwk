@@ -1,5 +1,6 @@
 # Main framework
 -framework/framework.jar:framework/sh-fwk.jar
+-framework/services.jar:framework/sh-services.jar
 
 # Emopa
 -system_ext/priv-app/EmoPar/EmoPar.apk

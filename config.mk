@@ -4,7 +4,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Required main framework
 PRODUCT_BOOT_JARS += \
-    sh-fwk
+    sh-fwk \
+    sh-services
 
 # Inherit from proprietary blobs
 $(call inherit-product, vendor/sh-fwk/prebuilts/prebuilts-vendor.mk)

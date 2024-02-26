@@ -17,5 +17,6 @@ PRODUCT_PACKAGES += \
     EmoPar \
     EmopaSystemService \
     sh-fwk \
+    sh-services \
     jp.co.sharp.android.emopar.library \
     jp.co.sharp.android.emopar.systemservice
