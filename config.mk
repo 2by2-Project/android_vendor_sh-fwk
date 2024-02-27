@@ -3,9 +3,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sh-fwk
 
 # Required main framework
-#PRODUCT_BOOT_JARS += \
-#    sh-fwk \
-#    sh-services
+PRODUCT_PACKAGES += \
+    sh-fwk
+
+PRODUCT_BOOT_JARS += \
+    sh-fwk
 
 # Permissions
 PRODUCT_COPY_FILES += \
